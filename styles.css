@@ -1,0 +1,33 @@
+h1 {
+    color:red;
+}
+
+head {
+    color: pink;
+}
+
+table {
+    border-collapse: collapse;
+}
+table, td {
+    border: 1px solid black;
+}
+td{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.arrowInputBoxEmpty {
+    background-color: #ffffff;
+}
+
+.arrowInputBoxInvalid {
+    background-color: #ff4040;
+}
+
+.submitTable {
+    colspan: 2;
+    align: center;
+    border: 0px;
+}
