@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Scores</title>
@@ -53,6 +53,18 @@
 	</script>
     </head>
     <body>
+   
+        <?php 
+            /*
+            if(!$db){
+                echo $db->lastErrorMsg();
+            }
+            else
+            {
+                echo "Opened Database Successfully\n";
+            }
+        */
+        ?>
         <table border="0" id="score-table">
             <tr>
                 <th>End</th>
