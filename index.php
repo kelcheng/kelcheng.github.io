@@ -51,19 +51,25 @@
 			});
 		});
 	</script>
+	
+	<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+		apiKey: "AIzaSyDaKTVBASDl_yN1X2_UNCobYsZ6Zjxssc4",
+		authDomain: "scores-86225.firebaseapp.com",
+		databaseURL: "https://scores-86225.firebaseio.com",
+		projectId: "scores-86225",
+		storageBucket: "scores-86225.appspot.com",
+		messagingSenderId: "183544773366"
+	  };
+	  firebase.initializeApp(config);
+	</script>
     </head>
     <body>
    
         <?php 
-            /*
-            if(!$db){
-                echo $db->lastErrorMsg();
-            }
-            else
-            {
-                echo "Opened Database Successfully\n";
-            }
-        */
+			print("Hellow World!");
         ?>
         <table border="0" id="score-table">
             <tr>
